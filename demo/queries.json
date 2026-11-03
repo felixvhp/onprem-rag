@@ -1,0 +1,17 @@
+[
+  {"query": "How long does a full charge take?", "relevant": ["Atlas AMR Overview"]},
+  {"query": "What is the payload of the Atlas 1200?", "relevant": ["Atlas AMR Overview"]},
+  {"query": "Which ports must be open between the robots and the Fleet Manager?", "relevant": ["Network Setup", "Fleet Manager Installation"]},
+  {"query": "What server hardware does the Fleet Manager need?", "relevant": ["Fleet Manager Installation"]},
+  {"query": "Where does the licence file go?", "relevant": ["Fleet Manager Installation"]},
+  {"query": "Why does a robot say payload rejected?", "relevant": ["Troubleshooting Guide", "Robot Commissioning"]},
+  {"query": "What happens when someone walks into the protective field?", "relevant": ["Safety System"]},
+  {"query": "How often must the safety fields be verified?", "relevant": ["Safety System", "Maintenance Schedule"]},
+  {"query": "When should a battery pack be replaced?", "relevant": ["Maintenance Schedule"]},
+  {"query": "How do I create a transport job through the API?", "relevant": ["Operator Console API"]},
+  {"query": "What is the API rate limit?", "relevant": ["Operator Console API"]},
+  {"query": "What changed for traffic in narrow aisles?", "relevant": ["Release Notes 2025.3"]},
+  {"query": "How do I pair a new robot with the Fleet Manager?", "relevant": ["Robot Commissioning"]},
+  {"query": "What should I do when a robot is offline?", "relevant": ["Troubleshooting Guide", "Network Setup"]},
+  {"query": "What Wi-Fi signal strength is required?", "relevant": ["Network Setup"]}
+]

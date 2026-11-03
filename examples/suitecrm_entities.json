@@ -1,0 +1,19 @@
+{
+  "accounts": {
+    "label": "Account",
+    "fields": {
+      "name": "Name",
+      "industry": "Industry",
+      "account_type": "Type",
+      "billing_address_city": "City",
+      "billing_address_country": "Country",
+      "website": "Website",
+      "description": "Description"
+    },
+    "relationships": {
+      "contacts": {"label": "Contacts", "fields": {"name": "Name", "title": "Title", "email1": "Email"}},
+      "opportunities": {"label": "Opportunities", "fields": {"name": "Name", "sales_stage": "Stage", "amount": "Amount", "date_closed": "Expected close"}},
+      "cases": {"label": "Support cases", "fields": {"name": "Subject", "status": "Status", "priority": "Priority"}}
+    }
+  }
+}

@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "onprem-rag"
+version = "0.1.0"
+description = "On-premise retrieval-augmented generation platform with pluggable knowledge sources and an OpenAI-compatible API"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+dependencies = [
+    "llama-index-core>=0.12",
+    "llama-index-vector-stores-faiss",
+    "faiss-cpu",
+    "flask",
+    "flask-cors",
+    "requests",
+    "tiktoken",
+    "python-dotenv",
+]
+
+[project.optional-dependencies]
+embeddings = ["llama-index-embeddings-huggingface", "sentence-transformers"]
+mediawiki = ["mwparserfromhell"]
+gitlab = ["python-gitlab", "llama-index-readers-gitlab"]
+dev = ["pytest"]
+
+[tool.setuptools.packages.find]
+include = ["onprem_rag*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

@@ -1,0 +1,12 @@
+llama-index-core>=0.12
+llama-index-vector-stores-faiss
+llama-index-embeddings-huggingface
+sentence-transformers
+faiss-cpu
+flask
+flask-cors
+requests
+tiktoken
+python-dotenv
+mwparserfromhell
+pytest
